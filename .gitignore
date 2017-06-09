@@ -1,0 +1,17 @@
+# Systems
+.DS_Store
+Thumbs.db
+
+# IDEs
+/.idea
+
+# Dependencies
+*.log
+/*.lock
+/vendor
+
+# Project specific
+/.cache
+/.config
+/.local
+/.tmp
