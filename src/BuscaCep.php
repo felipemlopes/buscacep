@@ -36,7 +36,7 @@ class BuscaCep
                 $counter++;
                 continue;
             }
-            
+
             $counter = 0;
             return $collection;
             break;
@@ -58,7 +58,7 @@ class BuscaCep
         try {
             $client = new $service;
 
-            return $client->buscar($args['cep']);
+            return $client->buscar($args['cep'], true);
         }
         catch(Exception $e){
             Log::error("{$service} has failed, calling next.");
